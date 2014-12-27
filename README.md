@@ -1,5 +1,5 @@
 ## Chimery
-<img src="https://raw.github.com/djcapelis/chimery/master/art/chimerylogo.svg" align="center" height="300" alt="Chimery Logo">
+<img src="https://raw.github.com/djcapelis/chimery/master/art/chimerylogo.png" align="center" alt="Chimery Logo">
 
 ### WTF?
 Chimery is a small piece of software that allows you to set a schedule for chimes at regular intervals through-out your day.
