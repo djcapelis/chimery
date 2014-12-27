@@ -1,0 +1,9 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>art/begin.wav</file>
+    <file>art/end.wav</file>
+    <file>art/chimerylogo.svg</file>
+    <file>art/chimeryactivelogo.svg</file>
+    <file>about.html</file>
+</qresource>
+</RCC>

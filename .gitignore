@@ -1,0 +1,16 @@
+# Gitignore for Qt type projects
+# Compiled binary
+Chimery.app
+
+# C++ objects and libs
+*.o
+
+# Qt stuff
+/.qmake.cache
+/.qmake.stash
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*-build-*
