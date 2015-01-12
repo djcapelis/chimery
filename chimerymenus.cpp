@@ -11,11 +11,12 @@ ChimeryMenus::ChimeryMenus(ChimeryMainWindow * mwin, ChimeryAboutWindow * awin) 
     about = new QAction("&About Chimery", this);
     sched->setEnabled(false);
     sched->setShortcuts(QKeySequence::Undo);
-    menu->setAsDockMenu();
     menu->addAction(sched);
-    menu->addSeparator();
     menu->addAction(about);
     this->addMenu(menu);
+#ifdef Q_OS_MAC
+    menu->setAsDockMenu();
+#endif
     QObject::connect(sched, SIGNAL(triggered()), mainwin, SLOT(reinit()), Qt::QueuedConnection);
     QObject::connect(about, SIGNAL(triggered()), aboutwin, SLOT(show()), Qt::QueuedConnection);
 }
